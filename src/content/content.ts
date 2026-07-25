@@ -261,7 +261,7 @@ function appendStylesheet(theme: string) {
   link.rel = "stylesheet";
   link.type = "text/css";
   link.id = theme;
-  link.href = `https://360macky.github.io/platzikey-themes/${theme}.css`;
+  link.href = `https://marcelo-earth.github.io/platzikey-themes/${theme}.css`;
   head.appendChild(link);
 }
 
