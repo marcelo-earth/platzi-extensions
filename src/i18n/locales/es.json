@@ -4,6 +4,7 @@
   "theme": "Tema",
   "zenmode": "Modo Zen",
   "sshmode": "Modo SSH",
+  "lightmode": "Modo Claro",
   "spotlightAlert": "Platzi Extension: Para desactivar Spotlight, la página se recargará.",
   "greenboardWarning": "Platzi Extension: La herramienta Greenboard está pensada para su uso dentro de exámenes.",
   "deactivateShortcutsAlert": "Platzi Extension: Para desactivar los shortcuts se recargará esta página.",

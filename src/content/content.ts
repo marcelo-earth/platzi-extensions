@@ -288,13 +288,16 @@ const updatePlatziTheme = (theme: string) => {
   appendStylesheet(theme);
   switch (theme) {
     case "zen":
-      removeElementsIfExists(["ssh"]);
+      removeElementsIfExists(["ssh", "light"]);
       break;
     case "ssh":
-      removeElementsIfExists(["zen"]);
+      removeElementsIfExists(["zen", "light"]);
+      break;
+    case "light":
+      removeElementsIfExists(["zen", "ssh"]);
       break;
     default:
-      removeElementsIfExists(["zen", "ssh"]);
+      removeElementsIfExists(["zen", "ssh", "light"]);
       break;
   }
 };
