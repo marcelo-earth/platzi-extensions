@@ -20,7 +20,7 @@ export function isMac(): boolean {
 export function getScriptOrStylesheet(name: string): string {
   switch (name) {
     case "greenboard.css":
-      return "https://360macky.github.io/platzikey-themes/utils/greenboard.css";
+      return "https://marcelo-earth.github.io/platzikey-themes/utils/greenboard.css";
       break;
 
     default:

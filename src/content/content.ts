@@ -211,7 +211,7 @@ function handleShortcutsOnPlatzi(event: KeyboardEvent) {
 /**
  * @name addPlatziExtensionMessageToPlatziExam
  * @description Add a message to the Platzi exam page to inform the user that
- * they can use the Platzi Extension with powerful shortcuts.
+ * they can use the Platzi Extensions with powerful shortcuts.
  */
 function addPlatziExtensionMessageToPlatziExam() {
   const overviewList = document.getElementsByClassName(
@@ -261,7 +261,7 @@ function appendStylesheet(theme: string) {
   link.rel = "stylesheet";
   link.type = "text/css";
   link.id = theme;
-  link.href = `https://360macky.github.io/platzikey-themes/${theme}.css`;
+  link.href = `https://marcelo-earth.github.io/platzikey-themes/${theme}.css`;
   head.appendChild(link);
 }
 

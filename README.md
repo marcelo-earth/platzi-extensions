@@ -3,10 +3,10 @@
     src=".github/PlatziExtensionIcon.png"
     align="center"
     width="100"
-    alt="Platzi Extension"
-    title="Platzi Extension"
+    alt="Platzi Extensions"
+    title="Platzi Extensions"
   />
-  <h1 align="center">Platzi Extension</h1>
+  <h1 align="center">Platzi Extensions</h1>
 </p>
 
 <p align="center">🚀 Awesome features for <a href="https://platzi.com">Platzi</a> with this browser extension 🦉.</p>
@@ -23,8 +23,8 @@
     src=".github/preview.gif"
     align="center"
     width="350"
-    alt="Preview of Platzi Extension"
-    title="Preview of Platzi Extension"
+    alt="Preview of Platzi Extensions"
+    title="Preview of Platzi Extensions"
     style="border-radius: 10px"
   />
 </p>
@@ -36,18 +36,18 @@
 <p align="center">
   🤗 Thank you for visiting this browser extension project, help spread it by giving a star! 🌟<br />
   <br />
-  🚀 Start participing in the development of this tool in the <a href="https://github.com/marcelo-earth/platzi-extension/discussions">Discussions section</a>!<br />
+  🚀 Start participing in the development of this tool in the <a href="https://github.com/marcelo-earth/platzi-extensions/discussions">Discussions section</a>!<br />
   <br />
-  <a href="https://github.com/marcelo-earth/platzi-extension/stargazers"><img src="https://img.shields.io/github/stars/marcelo-earth/platzi-extension?label=Star%20this%20repository%21&style=social" /></a><br />
+  <a href="https://github.com/marcelo-earth/platzi-extensions/stargazers"><img src="https://img.shields.io/github/stars/marcelo-earth/platzi-extensions?label=Star%20this%20repository%21&style=social" /></a><br />
   <br />
   ✅ This project has diagrams to help you understand how it works! 📌<br />
 </p>
 
 ## 🤖 Concept
 
-**Platzi Extension** is a browser extension that helps you to solve exams faster in Platzi. And also the extension provides new functionalities to improve the experience of taking classes in Platzi.
+**Platzi Extensions** is a browser extension that helps you to solve exams faster in Platzi. And also the extension provides new functionalities to improve the experience of taking classes in Platzi.
 
-Briefly the features of Platzi Extension are:
+Briefly the features of Platzi Extensions are:
 
 - **Shortcuts**: Select exam options faster with your own keyboard shortcuts. Also navigate between classes and make contributions using keyboard shortcuts.
 - **Greenboard**: Open a fully integrated _whiteboard_ in your exam.
@@ -61,64 +61,64 @@ It supports chromium-based browsers (like Chrome, Edge, Brave, Arc) and WebKit-b
 
 ## 🚀 Features
 
-Things you can do with **Platzi Extension**:
+Things you can do with **Platzi Extensions**:
 
-### ⌨ Platzi Extension Shortcuts
+### ⌨ Platzi Extensions Shortcuts
 
 Select exam options faster with your own keyboard. Use letters, and numbers!
 
-### 🖌 Platzi Extension Greenboard
+### 🖌 Platzi Extensions Greenboard
 
 Open a fully integrated _whiteboard_ in your exam to be able to draw, do calculations or whatever you want.
 
-### 🧐 Platzi Extension Zen Mode
+### 🧐 Platzi Extensions Zen Mode
 
 A new design that reduces the number of buttons and visual elements in the exam.
 
-### 💻 Platzi Extension SSH Mode
+### 💻 Platzi Extensions SSH Mode
 
 A terminal-style design to solve exams as if you were installing a package.
 
-### 📚 Platzi Extension Highlight classes
+### 📚 Platzi Extensions Highlight classes
 
 Select classes you want to highlight in your Student Home.
 
-### 💾 Platzi Extension Save contributions
+### 💾 Platzi Extensions Save contributions
 
 Save contributions in your Student Home.
 
 ## 💻 Core Development
 
-This section is for developers who want to know how Platzi Extension works.
+This section is for developers who want to know how Platzi Extensions works.
 
-Platzi Extension has a software architecture targeted to be a browser extension for the Chrome Web Store.
+Platzi Extensions has a software architecture targeted to be a browser extension for the Chrome Web Store.
 
 ### ⭐️ Version Workflow
 
-The source code in this repository is versioned at 4.0.0. The source code you can download is the latest version of **Platzi Extension for Developers**, which may contain features that are not yet available in stores, and may contain bugs.
+The source code in this repository is versioned at 4.0.0. The source code you can download is the latest version of **Platzi Extensions for Developers**, which may contain features that are not yet available in stores, and may contain bugs.
 
 ### 📦 Architecture
 
-Platzi Extension adopts an all-new architecture for browser extensions using TypeScript for the development of the modules. This enables better experience to interact with the Chrome API.
+Platzi Extensions adopts an all-new architecture for browser extensions using TypeScript for the development of the modules. This enables better experience to interact with the Chrome API.
 
-Platzi Extension uses Webpack for the compilation of the modules written in TypeScript. Webpack is configured into two modes: `development` and `production`.
+Platzi Extensions uses Webpack for the compilation of the modules written in TypeScript. Webpack is configured into two modes: `development` and `production`.
 
-Platzi Extension uses JSDocs for the documentation of the code.
+Platzi Extensions uses JSDocs for the documentation of the code.
 
 ```mermaid
 graph TD
-    A[Platzi Extension is loaded] -->|Load Platzi Extension Configuration Storage| B(background.js)
+    A[Platzi Extensions is loaded] -->|Load Platzi Extensions Configuration Storage| B(background.js)
     B --> |Check if web is Platzi| C[\matches: platzi.com/*/]
-    C -->|Load Platzi Extension default features| D(content_scripts)
+    C -->|Load Platzi Extensions default features| D(content_scripts)
 ```
 
-Platzi Extension does not store information of the users. An account is not required to use the extension.
+Platzi Extensions does not store information of the users. An account is not required to use the extension.
 
 Information related to their extension preferences is stored in the browser's storage.
 
 ### ✅ Good practices
 
-According to the [Google Chrome Web Store Developer Program Policies](https://developer.chrome.com/docs/webstore/best_practices/), Platzi Extension as a browser extension follows these good practices:
+According to the [Google Chrome Web Store Developer Program Policies](https://developer.chrome.com/docs/webstore/best_practices/), Platzi Extensions as a browser extension follows these good practices:
 
 * **Manifest V3**: The extension uses the new Manifest V3 of Chrome.
 * **Security**: The extension does not store information of the users. An account is not required to use the extension.
@@ -133,26 +133,26 @@ According to the [Google Chrome Web Store Developer Program Policies](https://de
 
 `popup.html` file is the extension window. The `popup.js` file is the JavaScript code whose scope is in this window. It executed when the popup es opened.
 
-`background.ts` file only contains the default storage information about the features of Platzi Extension. It's the service worker of the extension.
+`background.ts` file only contains the default storage information about the features of Platzi Extensions. It's the service worker of the extension.
 
 `content.ts` file is executed in background everytime the page is loaded for the `"https://platzi.com/*"`
 
 ### 🔓 Browser permissions
 
-Platzi Extension works with these permissions:
+Platzi Extensions works with these permissions:
 
 - `storage`: To store variables like `shortcuts`, `greenboard`, etc.
 - `scripting`: To execute JavaScript scripts inside the page itself.
 
 ### ⌨️ Shortcuts Technology
 
-Platzi Extension [creates an eventlistener](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener) inside window to listen for keypresses on keys `A`, `B`, `C`, `D`, `E` and `1`, `2`, `3`, `4`, `5` and `6`. Also `X` or `0` key to skip the question.
+Platzi Extensions [creates an eventlistener](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener) inside window to listen for keypresses on keys `A`, `B`, `C`, `D`, `E` and `1`, `2`, `3`, `4`, `5` and `6`. Also `X` or `0` key to skip the question.
 
 ## 🔩 Installation
 
 ### 🚅 Production (recommended)
 
-Go to [Platzi Extension page](https://chrome.google.com/webstore/detail/platzi-extension/bdjedpeffgjikndcihipemgdinpcmpcf?hl=es-419), and click on "Add extension".
+Go to [Platzi Extensions page](https://chrome.google.com/webstore/detail/platzi-extension/bdjedpeffgjikndcihipemgdinpcmpcf?hl=es-419), and click on "Add extension".
 
 It works correctly in Google Chrome, Micorosft Edge and Brave.
 
@@ -162,17 +162,17 @@ This browser extension was made with the motive of **accelerating the speed of e
 
 ### 🦊 Development
 
-If you want the latest features of Platzi Extension you can install the development version following [this tutorial](https://github.com/marcelo-earth/platzi-extension/blob/main/INSTALLATION.md).
+If you want the latest features of Platzi Extensions you can install the development version following [this tutorial](https://github.com/marcelo-earth/platzi-extensions/blob/main/INSTALLATION.md).
 
 ## 🤲 Contributing
 
-Do you would like to contribute? Do you want to be the author of a new feature? Awesome! please fork the repository and make changes as you like. [Pull requests](https://github.com/marcelo-earth/platzi-extension/pulls) are warmly welcome.
+Do you would like to contribute? Do you want to be the author of a new feature? Awesome! please fork the repository and make changes as you like. [Pull requests](https://github.com/marcelo-earth/platzi-extensions/pulls) are warmly welcome.
 
-Also, you can check [Issues](https://github.com/marcelo-earth/platzi-extension/issues) to get any ideas on how to improve this browser extension.
+Also, you can check [Issues](https://github.com/marcelo-earth/platzi-extensions/issues) to get any ideas on how to improve this browser extension.
 
 ## 📃 License
 
 The source code is distributed under the MIT License.
 See [`LICENSE`](./LICENSE) for more information.
 
-Platzi Extension is a free and open source project maintained by Astronware LLC.
+Platzi Extensions is a free and open source project maintained by Astronware LLC.
