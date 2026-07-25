@@ -4,9 +4,9 @@
   "theme": "Tema",
   "zenmode": "Modo Zen",
   "sshmode": "Modo SSH",
-  "spotlightAlert": "Platzi Extension: Para desativar o Spotlight, a página será recarregada.",
-  "greenboardWarning": "Platzi Extension: A ferramenta Greenboard foi projetada para uso durante provas.",
-  "deactivateShortcutsAlert": "Platzi Extension: Para desativar os atalhos, esta página será recarregada.",
+  "spotlightAlert": "Platzi Extensions: Para desativar o Spotlight, a página será recarregada.",
+  "greenboardWarning": "Platzi Extensions: A ferramenta Greenboard foi projetada para uso durante provas.",
+  "deactivateShortcutsAlert": "Platzi Extensions: Para desativar os atalhos, esta página será recarregada.",
   "deactivateShortcutsExamNote": "Não se preocupe, você não perderá o progresso da prova.",
   "deleteContributionConfirm": "Deseja remover esta contribuição das suas contribuições salvas?",
   "save": "Salvar",
@@ -15,7 +15,7 @@
   "deleteContribution": "Excluir contribuição",
   "highlightedClasses": "Aulas em destaque",
   "savedContributions": "Contribuições salvas",
-  "examShortcutsInfo": "Você pode usar atalhos da sua extensão Platzi Extension.",
+  "examShortcutsInfo": "Você pode usar atalhos da sua extensão Platzi Extensions.",
   "chooseColor": "Escolher cor",
   "clearCanvas": "Limpar"
 }

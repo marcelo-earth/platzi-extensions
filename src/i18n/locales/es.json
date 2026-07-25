@@ -4,9 +4,9 @@
   "theme": "Tema",
   "zenmode": "Modo Zen",
   "sshmode": "Modo SSH",
-  "spotlightAlert": "Platzi Extension: Para desactivar Spotlight, la página se recargará.",
-  "greenboardWarning": "Platzi Extension: La herramienta Greenboard está pensada para su uso dentro de exámenes.",
-  "deactivateShortcutsAlert": "Platzi Extension: Para desactivar los shortcuts se recargará esta página.",
+  "spotlightAlert": "Platzi Extensions: Para desactivar Spotlight, la página se recargará.",
+  "greenboardWarning": "Platzi Extensions: La herramienta Greenboard está pensada para su uso dentro de exámenes.",
+  "deactivateShortcutsAlert": "Platzi Extensions: Para desactivar los shortcuts se recargará esta página.",
   "deactivateShortcutsExamNote": "No te preocupes, no perderás el progreso del examen.",
   "deleteContributionConfirm": "¿Deseas eliminar este aporte de tus aportes guardados?",
   "save": "Guardar",
@@ -15,7 +15,7 @@
   "deleteContribution": "Eliminar aporte",
   "highlightedClasses": "Clases destacadas",
   "savedContributions": "Aportes guardados",
-  "examShortcutsInfo": "Puedes usar shortcuts de tu extensión Platzi Extension.",
+  "examShortcutsInfo": "Puedes usar shortcuts de tu extensión Platzi Extensions.",
   "chooseColor": "Elegir color",
   "clearCanvas": "Limpiar"
 }

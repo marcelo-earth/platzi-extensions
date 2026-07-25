@@ -211,7 +211,7 @@ function handleShortcutsOnPlatzi(event: KeyboardEvent) {
 /**
  * @name addPlatziExtensionMessageToPlatziExam
  * @description Add a message to the Platzi exam page to inform the user that
- * they can use the Platzi Extension with powerful shortcuts.
+ * they can use the Platzi Extensions with powerful shortcuts.
  */
 function addPlatziExtensionMessageToPlatziExam() {
   const overviewList = document.getElementsByClassName(
