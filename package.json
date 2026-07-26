@@ -21,13 +21,13 @@
   ],
   "author": {
     "name": "Astronware LLC",
-    "url": "https://platziextension.dev"
+    "url": "https://platzi-extensions.vercel.app"
   },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/marcelo-earth/platzi-extensions/issues"
   },
-  "homepage": "https://platziextension.dev",
+  "homepage": "https://platzi-extensions.vercel.app",
   "devDependencies": {
     "@types/chrome": "^0.0.213",
     "copy-webpack-plugin": "^11.0.0",

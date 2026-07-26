@@ -30,7 +30,7 @@
 </p>
 
 <p align="center">
-  <a href="https://platziextension.dev">www.platziextension.dev</a>
+  <a href="https://platzi-extensions.vercel.app">platzi-extensions.vercel.app</a>
 </p>
 
 <p align="center">
